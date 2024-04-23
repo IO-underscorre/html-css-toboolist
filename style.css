@@ -44,30 +44,152 @@ main > * {
     padding-right: 6.5%;
 }
 
-.list-menu {
+#list-menu {
     padding-top: 2vh;
     padding-bottom: 2vh;
-    border-bottom: #f6f8f9;
+    border-bottom: 2px solid #f6f8f9;
 }
 
-.list-menu > .button {
+.button {
     font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    border: 2px solid;
+
+}
+
+#list-menu > .button {
     color: #cfd4d8;
-    text-align: center;
-    background-color: #ffffff;
-    padding: 0.5rem;
-    border: 2px solid #cfd4d8;
-    border-radius: 0.5rem;
-    display: inline-block;
+    background-color: #ffffff; 
+    border-color: #cfd4d8;
 }
 
-.list-menu > .button:hover {
-    font-size: 1rem;
+#list-menu > .button:hover {
     color: #ffffff;
-    text-align: center;
     background-color: #47adf1;
+    border-color: #47adf1;
+}
+
+#list {
+    padding-top: 4vh;
+}
+
+.list-section {
+    padding-bottom: 4vh;
+
+    color: #444851;
+}
+
+.list-section > summary {
+    margin-bottom: 0.5rem;
+    
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.list-item {
+    margin-bottom: 1.5rem;
+}
+
+.list-item > span {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+/* List items' status */
+.list-item > span.done::before {
+    content: "\2714";
+    color: #6cc4ae;
+    border-color: #6cc4ae;
+
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid;
+    padding: 0 0.2em;
+    border-radius: 50%;
+}
+
+.list-item > span.not-done::before {
+    content: "\2718";
+    color: #ea4339;
+    border-color: #ea4339;
+
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid;
+    padding: 0 0.2em;
+    border-radius: 50%;
+}
+
+
+/* List items' bookmarks */
+.list-item > span.editorial::after {
+    content: "Editorial";
+    background-color: #45abea;
+
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
     padding: 0.5rem;
-    border: 2px solid #47adf1;
-    border-radius: 0.5rem;
-    display: inline-block;
+    border-radius: 1rem;
+}
+
+.list-item > span.q1-goals::after {
+    content: "Q1 Goals";
+    background-color: #9c72e4;
+
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.list-item > span.recruiting::after {
+    content: "Recruiting";
+    background-color: #63bea7;
+
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.list-item > span.mobile::after {
+    content: "Mobile";
+    background-color: #f29e33;
+
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+
+.list-item > span.website::after {
+    content: "Website";
+    background-color: #d863a1;
+
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+
+.list-item > span.sales::after {
+    content: "Sales";
+    background-color: #b0c926;
+
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
 }

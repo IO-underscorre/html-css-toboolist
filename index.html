@@ -28,9 +28,80 @@
     <!-- Container of the list and related options -->
     <main>
         <!-- List options -->
-        <section class="list-menu">
+        <section id="list-menu">
             <input class="button" type="button" value="Add Task">
             <input class="button" type="button" value="Add Section">
+        </section>
+
+        <!-- To-do list -->
+        <section id="list">
+            <!-- List section 1 -->
+            <details class="list-section">
+                <!-- List section name "New Task" -->
+                <summary>
+                    New Task
+                </summary>
+                <!-- List item name "Quarterly Newsletter" -->
+                <div class="list-item">
+                    <span class="done" class="editorial">
+                        Quarterly Newsletter
+                    </span>
+                </div>
+            </details>
+                
+            <!-- List section 2 -->
+            <details class="list-section">
+                <summary>
+                    Today
+                </summary>
+                <div class="list-item">
+                    <span class="done" class="editorial">
+                        Recruiting blog post
+                    </span>
+                </div>
+                <div class="list-item">
+                    <span class="done" class="q1-goals">
+                        Mobile app launch
+                    </span>
+                </div>
+                <div class="list-item">
+                    <span class="not-done" class="recruiting">
+                        Interview John H.
+                    </span>
+                </div>
+                <div class="list-item">
+                    <span class="done" class="mobile">
+                        Submit update to mobile storefront
+                    </span>
+                </div>
+            </details>
+                
+            <!-- List section 3 -->
+            <details class="list-section">
+                <summary>
+                    Upcoming
+                </summary>
+                <div class="list-item">
+                    <span class="not-done">
+                        Schedule meeting with Alex
+                    </span>
+                </div>
+                <div class="list-item">
+                    <span class="done" class="website">
+                        Homepage refresh
+                    </span>
+                </div>
+                <div class="list-item">
+                    <span class="done" class="sales">
+                        Onboard new Sales team members
+                    </span>
+                </div>
+                <div class="list-item">
+                    <span class="done" class="editorial">
+                        Review editorial calendar
+                    </span>
+                </div>
+            </details>
         </section>
     </main>
 </body>

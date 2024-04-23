@@ -31,3 +31,43 @@ header > span {
     font-weight: 600;
     color: #031732;
 }
+
+main {
+    width: 70vw;
+    margin: 5vh auto 1vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+main > * {
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+}
+
+.list-menu {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-bottom: #f6f8f9;
+}
+
+.list-menu > .button {
+    font-size: 1rem;
+    color: #cfd4d8;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border: 2px solid #cfd4d8;
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+
+.list-menu > .button:hover {
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
+    background-color: #47adf1;
+    padding: 0.5rem;
+    border: 2px solid #47adf1;
+    border-radius: 0.5rem;
+    display: inline-block;
+}

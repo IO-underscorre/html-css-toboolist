@@ -84,7 +84,7 @@ main > * {
 
 .list-section > summary {
     margin-bottom: 0.5rem;
-    
+
     font-size: 2rem;
     font-weight: 700;
 }
@@ -126,7 +126,7 @@ main > * {
 
 
 /* List items' bookmarks */
-.list-item > span.editorial::after {
+.list-item > span.bookmark-editorial::after {
     content: "Editorial";
     background-color: #45abea;
 
@@ -137,7 +137,7 @@ main > * {
     border-radius: 1rem;
 }
 
-.list-item > span.q1-goals::after {
+.list-item > span.bookmark-q1goals::after {
     content: "Q1 Goals";
     background-color: #9c72e4;
 
@@ -148,7 +148,7 @@ main > * {
     border-radius: 1rem;
 }
 
-.list-item > span.recruiting::after {
+.list-item > span.bookmark-recruiting::after {
     content: "Recruiting";
     background-color: #63bea7;
 
@@ -159,7 +159,7 @@ main > * {
     border-radius: 1rem;
 }
 
-.list-item > span.mobile::after {
+.list-item > span.bookmark-mobile::after {
     content: "Mobile";
     background-color: #f29e33;
 
@@ -171,7 +171,7 @@ main > * {
 }
 
 
-.list-item > span.website::after {
+.list-item > span.bookmark-website::after {
     content: "Website";
     background-color: #d863a1;
 
@@ -183,7 +183,7 @@ main > * {
 }
 
 
-.list-item > span.sales::after {
+.list-item > span.bookmark-sales::after {
     content: "Sales";
     background-color: #b0c926;
 

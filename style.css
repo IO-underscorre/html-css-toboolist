@@ -2,4 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    font-optical-sizing: auto;
+    font-family: "Golos Text", sans-serif;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+header > img {
+    margin-left: 2vw;
+    height: 60px;
+    margin-top: 20px;
+}
+
+header > span {
+    font-size: 60px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-weight: 600;
+    color: #031732;
 }

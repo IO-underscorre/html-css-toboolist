@@ -12,10 +12,8 @@ body {
 }
 
 header {
-    width: 100%;
     height: 100px;
     background-color: #ffffff;
-    position: relative;
 }
 
 header > img {
@@ -110,19 +108,15 @@ main > * {
     content: "\2714";
     color: #6cc4ae;
     border-color: #6cc4ae;
-
-    margin-right: 0.5rem;
-    font-size: 1rem;
-    border: 2px solid;
-    padding: 0 0.2em;
-    border-radius: 50%;
 }
 
 .list-item > span.not-done::before {
     content: "\2718";
     color: #ea4339;
     border-color: #ea4339;
+}
 
+.list-item > span::before {
     margin-right: 0.5rem;
     font-size: 1rem;
     border: 2px solid;
@@ -135,64 +129,36 @@ main > * {
 .list-item > span.bookmark-editorial::after {
     content: "Editorial";
     background-color: #45abea;
-
-    color: #ffffff;
-    font-size: 1rem;
-    text-align: center;
-    padding: 0.5rem 0.75rem;
-    border-radius: 1rem;
 }
 
 .list-item > span.bookmark-q1goals::after {
     content: "Q1 Goals";
     background-color: #9c72e4;
-
-    color: #ffffff;
-    font-size: 1rem;
-    text-align: center;
-    padding: 0.5rem 0.75rem;
-    border-radius: 1rem;
 }
 
 .list-item > span.bookmark-recruiting::after {
     content: "Recruiting";
     background-color: #63bea7;
-
-    color: #ffffff;
-    font-size: 1rem;
-    text-align: center;
-    padding: 0.5rem 0.75rem;
-    border-radius: 1rem;
 }
 
 .list-item > span.bookmark-mobile::after {
     content: "Mobile";
     background-color: #f29e33;
-
-    color: #ffffff;
-    font-size: 1rem;
-    text-align: center;
-    padding: 0.5rem 0.75rem;
-    border-radius: 1rem;
 }
 
 
 .list-item > span.bookmark-website::after {
     content: "Website";
     background-color: #d863a1;
-
-    color: #ffffff;
-    font-size: 1rem;
-    text-align: center;
-    padding: 0.5rem 0.75rem;
-    border-radius: 1rem;
 }
 
 
 .list-item > span.bookmark-sales::after {
     content: "Sales";
     background-color: #b0c926;
+}
 
+.list-item > span::after {
     color: #ffffff;
     font-size: 1rem;
     text-align: center;
